@@ -23,6 +23,20 @@ array_Clone = function(arra1) {
 
 
 //Q3
+//Q4
+joinArr( ["Red", "Green", "White", "Black"])
+function joinArr(arr) {
+    var i = 1;
+    while (i) {
+        console.log(arr.join(","));
+        console.log(arr.join("-"));
+        console.log(arr.join("+"));
+        console.log(arr.join("*"));
+
+        i -= 1;
+    }
+}
+
 
 
 
