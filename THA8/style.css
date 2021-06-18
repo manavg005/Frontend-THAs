@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(187, 178, 178);
+    color: cornflowerblue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(182, 17, 50);
+    display:grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+}.wrap>div:hover{
+    background-color: rgba(116, 10, 31, 0.705);
+}
+.white{
+    background-color: rgb(248, 248, 248);
+}
