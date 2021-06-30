@@ -58,6 +58,15 @@ input{
     padding: 3rem 4rem;
     box-shadow: 0 0 40px gray;
 }
+#showScore h3{ 
+    font-size: 3rem;
+    text-align: center;
+}
+#showScore .btn:hover{
+    /* margin-top: 2rem; */
+    background-color: aqua;
+    color: black;
+}
 .scoreArea{
     display:none ;
 }
