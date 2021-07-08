@@ -91,7 +91,7 @@ submit.addEventListener('click',()=>{
     }else{
         showScore.innerHTML=`
         <h3> You have Scored ${score}/${quizDB.length}</h3>
-        <button class="btn" oneclick= "location.reload()">PLay Again</button>
+        <button class="btn" oneclick="location.reload()">PLay Again</button>
 
         `;
         showScore.classList.remove('scoreArea')
