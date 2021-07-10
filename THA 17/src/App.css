@@ -2,37 +2,38 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App{
   min-height: 100vh;
-  display: flex;
+  min-width:100vw;
+  display:flex;
   flex-direction: column;
+  justify-content:space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align:center;
 }
+.App {
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App > h1{
+  color: #1f1f1f;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.container{
+  padding: 20px;
+  height:200px;
+  width:clamp(50vw,100vw);
+  overflow-y: auto;
+}
+.foodCalorie{
+  border-radius:5px;
+  margin:20px 0px;
+  padding: 10px;
+  background:#1f1f1f;
+  color:white;
 }
